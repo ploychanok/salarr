@@ -4,3 +4,9 @@
 .navbar-collapse {
   justify-content: center;
 }
+
+.navbar-brand {
+  &.desktop {
+    justify-self: center;
+  }
+}
