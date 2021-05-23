@@ -1,0 +1,25 @@
+@import "../shared/variable.scss";
+
+@mixin screen($size) {
+  // 600px
+  @if $size == tablet-portrait {
+    @media (min-width: $screen-tablet-portrait) {
+      @content;
+    }
+    // 900px
+  } @else if $size == tablet-landscape {
+    @media (min-width: $screen-tablet-landscape) {
+      @content;
+    }
+    // 1200px
+  } @else if $size == desktop {
+    @media (min-width: $screen-desktop) {
+      @content;
+    }
+    // 1800px
+  } @else if $size == large-desktop {
+    @media (min-width: $screen-large-desktop) {
+      @content;
+    }
+  }
+}

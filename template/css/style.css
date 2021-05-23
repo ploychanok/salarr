@@ -1,0 +1,19 @@
+body {
+  background-color: #b6272d; }
+
+.container {
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: white;
+  max-width: 1500px;
+  padding: 0 20px; }
+  @media (min-width: 600px) {
+    .container {
+      width: 95%; } }
+
+.navbar-collapse {
+  justify-content: center; }
+
+/*# sourceMappingURL=style.css.map */

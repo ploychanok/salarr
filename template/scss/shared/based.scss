@@ -1,0 +1,20 @@
+@import "../shared/variable.scss";
+@import "../shared/mixin.scss";
+
+body {
+  background-color: $red;
+}
+
+.container {
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: $white;
+  max-width: 1500px;
+  padding: 0 20px;
+
+  @include screen(tablet-portrait) {
+    width: 95%;
+  }
+}
