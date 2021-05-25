@@ -7,6 +7,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: $font-family-bold;
+  overflow-x: hidden;
 }
 
 body {
@@ -16,9 +17,8 @@ body {
   max-width: 1920px;
   margin: 0 auto;
   position: relative;
-  overflow-x: hidden;
 
-  margin-bottom: -100px;
+  margin-bottom: -200px;
 }
 
 dl,

@@ -48,6 +48,9 @@
     align-items: center;
     transform: none;
     padding-left: 60px;
+  }
+
+  @include screen(desktop) {
     margin-right: 210px;
   }
 

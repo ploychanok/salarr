@@ -99,7 +99,8 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: TH-Niramit-AS-Bold, Arial, Helvetica, Times, serif; }
+  font-family: TH-Niramit-AS-Bold, Arial, Helvetica, Times, serif;
+  overflow-x: hidden; }
 
 body {
   min-height: 100%;
@@ -108,8 +109,7 @@ body {
   max-width: 1920px;
   margin: 0 auto;
   position: relative;
-  overflow-x: hidden;
-  margin-bottom: -100px; }
+  margin-bottom: -200px; }
 
 dl,
 ol,
@@ -254,7 +254,8 @@ header {
   background-color: #b6272d !important; }
   @media (min-width: 1200px) {
     header {
-      background-color: white !important; } }
+      background-color: white !important;
+      padding-bottom: 30px !important; } }
 
 .navbar-collapse {
   justify-content: center; }
@@ -272,23 +273,123 @@ header {
   .navbar-brand.desktop {
     justify-self: center; }
 
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: white; }
+  @media (min-width: 1200px) {
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .show > .nav-link {
+      color: black; } }
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.55); }
+  @media (min-width: 1200px) {
+    .navbar-light .navbar-nav .nav-link {
+      color: rgba(0, 0, 0, 0.55); } }
+
 .nav-link {
-  font-family: TH-Niramit-AS-Bold, Arial, Helvetica, Times, serif;
-  color: white !important; }
+  font-family: TH-Niramit-AS-Bold, Arial, Helvetica, Times, serif; }
   @media (min-width: 992px) {
     .nav-link {
-      font-size: 30px; } }
-  @media (min-width: 1200px) {
-    .nav-link {
-      color: black !important; } }
+      font-size: 21px; } }
 
-footer {
-  height: 100px;
-  width: 100%;
-  background-color: #402f1d !important; }
+@font-face {
+  font-family: "THNiramitAS-Bold";
+  src: url("../../asset/fonts/THNiramitAS-Bold.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: "THNiramitAS-BoldItalic";
+  src: url("../../asset/fonts/THNiramitAS-BoldItalic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: "THNiramitAS-AS";
+  src: url("../../asset/fonts/THNiramitAS.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: "THNiramitAS-Italic";
+  src: url("../../asset/fonts/THNiramitAS-Italic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: "THNiramitAS-Bold";
+  src: url("../../asset/fonts/THNiramitAS-Bold.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: "THNiramitAS-BoldItalic";
+  src: url("../../asset/fonts/THNiramitAS-BoldItalic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: "THNiramitAS-AS";
+  src: url("../../asset/fonts/THNiramitAS.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: "THNiramitAS-Italic";
+  src: url("../../asset/fonts/THNiramitAS-Italic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; }
+.footer {
+  min-height: 200px;
+  height: auto;
+  padding: 20px 32px;
+  background-color: #1a1a1a !important;
+  color: #ccc;
+  justify-content: center;
+  gap: 2rem;
+  text-align: left; }
+  .footer ul {
+    list-style: none;
+    padding: 0; }
+  .footer h3 {
+    font-weight: bold;
+    margin-bottom: 1rem; }
+  .footer a {
+    color: #ccc;
+    text-decoration: none; }
+
+.footer_about p {
+  font-size: 0.85rem; }
+
+.footer_main {
+  display: flex;
+  flex-direction: column; }
   @media (min-width: 1200px) {
-    footer {
-      background-color: white !important; } }
+    .footer_main {
+      justify-content: center;
+      align-items: center; } }
+
+.footer_right .footer_links {
+  padding: 1.2rem;
+  display: flex;
+  gap: 20px;
+  justify-content: center; }
+  @media (min-width: 1200px) {
+    .footer_right .footer_links {
+      padding-top: 0;
+      padding-bottom: 0; } }
+  .footer_right .footer_links img {
+    width: 40px;
+    height: 40px;
+    filter: invert(1); }
+
+.copyright {
+  margin-top: 2rem;
+  text-align: center;
+  padding: 1rem 0 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2); }
 
 @font-face {
   font-family: "THNiramitAS-Bold";
@@ -377,7 +478,9 @@ footer {
       display: flex;
       align-items: center;
       transform: none;
-      padding-left: 60px;
+      padding-left: 60px; } }
+  @media (min-width: 1200px) {
+    .carousel-title {
       margin-right: 210px; } }
   .carousel-title h1 span {
     white-space: nowrap; }

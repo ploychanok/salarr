@@ -6,6 +6,7 @@ header {
 
   @include screen(desktop) {
     background-color: $white !important;
+    padding-bottom: 30px !important;
   }
 }
 
@@ -33,15 +34,27 @@ header {
   }
 }
 
-.nav-link {
-  font-family: $font-family-bold;
-  color: $white !important;
-
-  @include screen(tablet-landscape) {
-    font-size: 30px;
-  }
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: $white;
 
   @include screen(desktop) {
-    color: $black !important;
+    color: $black;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.55);
+
+  @include screen(desktop) {
+    color: rgba(0, 0, 0, 0.55);
+  }
+}
+
+.nav-link {
+  font-family: $font-family-bold;
+
+  @include screen(tablet-landscape) {
+    font-size: 21px;
   }
 }
