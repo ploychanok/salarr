@@ -6,7 +6,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: "TH-Niramit-AS", Helvetica, Times, serif;
+  font-family: $font-family-bold;
 }
 
 body {
@@ -19,6 +19,12 @@ body {
   overflow-x: hidden;
 
   margin-bottom: -100px;
+}
+
+dl,
+ol,
+ul {
+  margin: 0;
 }
 
 .footer {
@@ -52,7 +58,7 @@ body {
 section {
   padding-bottom: 30px !important;
 
-  @include screen(desktop) {
+  @include screen(tablet-portrait) {
     padding-bottom: 60px !important;
   }
 }
@@ -80,7 +86,7 @@ img {
   background-color: $gray;
   margin: 25px 0;
 
-  @include screen(desktop) {
+  @include screen(tablet-portrait) {
     margin: 50px 0;
   }
 }

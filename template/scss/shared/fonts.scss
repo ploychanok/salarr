@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "TH-Niramit-AS-Bold";
+  font-family: "THNiramitAS-Bold";
   src: url("../../asset/fonts/THNiramitAS-Bold.woff2") format("woff2"),
     url("../../asset/fonts/THNiramitAS-Bold.woff") format("woff");
   font-weight: bold;
@@ -8,7 +8,7 @@
 }
 
 @font-face {
-  font-family: "TH-Niramit-AS-BoldItalic";
+  font-family: "THNiramitAS-BoldItalic";
   src: url("../../asset/fonts/THNiramitAS-BoldItalic.woff2") format("woff2"),
     url("../../asset/fonts/THNiramitAS-BoldItalic.woff") format("woff");
   font-weight: bold;
@@ -17,7 +17,7 @@
 }
 
 @font-face {
-  font-family: "TH-Niramit-AS";
+  font-family: "THNiramitAS-AS";
   src: url("../../asset/fonts/THNiramitAS.woff2") format("woff2"),
     url("../../asset/fonts/THNiramitAS.woff") format("woff");
   font-weight: normal;
@@ -26,10 +26,14 @@
 }
 
 @font-face {
-  font-family: "TH-Niramit-AS-Italic";
+  font-family: "THNiramitAS-Italic";
   src: url("../../asset/fonts/THNiramitAS-Italic.woff2") format("woff2"),
     url("../../asset/fonts/THNiramitAS-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
+
+$font-family-default: Arial, Helvetica, Times, serif;
+$font-family-regular: TH-Niramit-AS, $font-family-default;
+$font-family-bold: TH-Niramit-AS-Bold, $font-family-default;

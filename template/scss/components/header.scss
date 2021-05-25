@@ -1,6 +1,14 @@
 @import "../shared/variable.scss";
 @import "../shared/mixin.scss";
 
+header {
+  background-color: $red !important;
+
+  @include screen(desktop) {
+    background-color: $white !important;
+  }
+}
+
 .navbar-collapse {
   justify-content: center;
 }
@@ -26,8 +34,14 @@
 }
 
 .nav-link {
-  font-family: "TH-Niramit-AS-Bold";
+  font-family: $font-family-bold;
+  color: $white !important;
+
   @include screen(tablet-landscape) {
     font-size: 30px;
+  }
+
+  @include screen(desktop) {
+    color: $black !important;
   }
 }
