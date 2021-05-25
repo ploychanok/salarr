@@ -6,7 +6,28 @@
 }
 
 .navbar-brand {
+  margin: 0;
+
+  @include screen(tablet-landscape) {
+    padding-top: 30px;
+  }
+
+  img {
+    width: 80px;
+
+    @include screen(tablet-landscape) {
+      width: 150px;
+    }
+  }
+
   &.desktop {
     justify-self: center;
+  }
+}
+
+.nav-link {
+  font-family: "TH-Niramit-AS-Bold";
+  @include screen(tablet-landscape) {
+    font-size: 30px;
   }
 }

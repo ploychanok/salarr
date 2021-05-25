@@ -19,6 +19,7 @@
     position: static;
     display: flex;
     align-items: center;
+    padding-left: 5%;
   }
 
   h1 {
@@ -50,6 +51,8 @@
     z-index: 2;
     position: absolute;
     right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
   }
 
   .description {
@@ -60,20 +63,18 @@
       min-width: 900px;
     }
 
-    p {
-      &::before,
-      &::after {
-        font-size: 50px;
-        list-style: 1;
-      }
+    &::before,
+    &::after {
+      font-size: 50px;
+      list-style: 1;
+    }
 
-      &::before {
-        content: "\201c";
-      }
+    &::before {
+      content: "\201c";
+    }
 
-      &::after {
-        content: "\201d";
-      }
+    &::after {
+      content: "\201d";
     }
   }
 }
@@ -102,6 +103,8 @@
 
   &.right {
     flex-direction: row-reverse;
+    text-align: right;
+
     .description {
       left: 0;
     }
