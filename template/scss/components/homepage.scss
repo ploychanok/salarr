@@ -149,6 +149,10 @@
       .description {
         right: 0;
       }
+
+      .carousel-control-next {
+        display: none;
+      }
     }
 
     &.right {
@@ -157,6 +161,10 @@
 
       .description {
         left: 0;
+      }
+
+      .carousel-control-prev {
+        display: none;
       }
     }
   }

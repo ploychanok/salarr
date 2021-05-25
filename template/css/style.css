@@ -549,11 +549,15 @@ header {
   @media (min-width: 992px) {
     .gallery.left .description {
       right: 0; }
+    .gallery.left .carousel-control-next {
+      display: none; }
     .gallery.right {
       flex-direction: row-reverse;
       text-align: right; }
       .gallery.right .description {
-        left: 0; } }
+        left: 0; }
+      .gallery.right .carousel-control-prev {
+        display: none; } }
   .gallery .description {
     margin-top: 30px; }
     @media (min-width: 992px) {
