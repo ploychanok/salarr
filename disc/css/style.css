@@ -704,27 +704,32 @@ header {
       padding-bottom: 30px; } }
 .contents p,
 .contents blockquote,
-.contents ul {
+.contents ul,
+.contents ol {
   margin: 0 auto; }
   @media (min-width: 768px) {
     .contents p,
     .contents blockquote,
-    .contents ul {
+    .contents ul,
+    .contents ol {
       max-width: 600px; } }
   @media (min-width: 992px) {
     .contents p,
     .contents blockquote,
-    .contents ul {
+    .contents ul,
+    .contents ol {
       max-width: 720px; } }
   @media (min-width: 1800px) {
     .contents p,
     .contents blockquote,
-    .contents ul {
+    .contents ul,
+    .contents ol {
       max-width: 930px; } }
   @media (min-width: 1200px) {
     .contents p,
     .contents blockquote,
-    .contents ul {
+    .contents ul,
+    .contents ol {
       font-size: 22px; } }
 @media (min-width: 1200px) {
   .contents figcaption {
@@ -749,6 +754,17 @@ header {
     .contents ul li::before {
       content: "-";
       padding-right: 8px; }
+.contents ol {
+  list-style-type: thai;
+  padding: 0; }
+  .contents ol li {
+    padding-left: 16px;
+    padding-bottom: 16px; }
+    @media (min-width: 1200px) {
+      .contents ol li {
+        padding-left: 30px; } }
+    .contents ol li::marker {
+      font-weight: bold; }
 
 .content-with-image-section {
   margin: 0 auto; }
@@ -767,7 +783,9 @@ header {
       flex-direction: row; } }
   @media (min-width: 768px) {
     .content-with-image-section .content-with-image img {
-      width: 60%; } }
+      width: 60%;
+      height: 100%;
+      align-self: center; } }
   .content-with-image-section .content-with-image figcaption {
     display: flex;
     flex-direction: column; }

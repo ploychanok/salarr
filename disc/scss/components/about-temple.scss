@@ -46,7 +46,8 @@
 
   p,
   blockquote,
-  ul {
+  ul,
+  ol {
     @include content-width;
 
     @include screen(desktop) {
@@ -92,6 +93,24 @@
       }
     }
   }
+
+  ol {
+    list-style-type: thai;
+    padding: 0;
+
+    li {
+      padding-left: 16px;
+      padding-bottom: 16px;
+
+      @include screen(desktop) {
+        padding-left: 30px;
+      }
+
+      &::marker {
+        font-weight: bold;
+      }
+    }
+  }
 }
 
 .content-with-image-section {
@@ -106,6 +125,8 @@
     img {
       @include screen(tablet-portrait) {
         width: 60%;
+        height: 100%;
+        align-self: center;
       }
     }
 
