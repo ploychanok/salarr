@@ -99,7 +99,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: TH-Niramit-AS-Bold, Arial, Helvetica, Times, serif;
+  font-family: "THNiramitAS-Bold", Arial, Helvetica, Times, serif;
   overflow-x: hidden; }
 
 body {
@@ -327,7 +327,7 @@ header {
       color: rgba(0, 0, 0, 0.55); } }
 
 .nav-link {
-  font-family: TH-Niramit-AS-Bold, Arial, Helvetica, Times, serif; }
+  font-family: "THNiramitAS-Bold", Arial, Helvetica, Times, serif; }
   @media (min-width: 992px) {
     .nav-link {
       font-size: 21px; } }
@@ -492,6 +492,9 @@ header {
       max-width: 1500px; } }
   .carousel-container .custom-row {
     flex-flow: row; }
+  @media (min-width: 1200px) {
+    .carousel-container p {
+      font-size: 20px; } }
 
 .carousel-homepage {
   max-width: 1400px;
@@ -719,7 +722,7 @@ header {
     padding-left: 150px;
     padding-right: 150px; } }
 .contents h2 {
-  font-family: TH-Niramit-AS-Bold, Arial, Helvetica, Times, serif;
+  font-family: "THNiramitAS-Bold", Arial, Helvetica, Times, serif;
   font-size: calc(1.375rem + 1.5vw);
   padding-bottom: 16px; }
   @media (min-width: 1200px) {
