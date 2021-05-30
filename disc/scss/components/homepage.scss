@@ -224,6 +224,15 @@
       letter-spacing: 5px;
     }
   }
+
+  .image {
+    @include screen(tablet-landscape) {
+      width: 800px;
+    }
+
+    ~ .description {
+    }
+  }
 }
 
 .image-gallery {

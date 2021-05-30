@@ -613,6 +613,9 @@ header {
     @media (min-width: 1200px) {
       .gallery .description {
         letter-spacing: 5px; } }
+  @media (min-width: 992px) {
+    .gallery .image {
+      width: 800px; } }
 
 @media (min-width: 992px) {
   .image-gallery .carousel {
