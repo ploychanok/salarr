@@ -54,12 +54,49 @@
     margin-right: 210px;
   }
 
-  h1 {
-    span {
-      white-space: nowrap;
+  &__long-text {
+    @include screen(tablet-landscape) {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 60%;
+      position: absolute;
+      left: 0;
+      top: 25%;
 
-      @include screen(desktop) {
-        letter-spacing: 25px;
+      ~ .carousel {
+        width: 100%;
+
+        @include screen(desktop) {
+          margin-left: 210px;
+        }
+      }
+    }
+
+    h1 {
+      span {
+        @include screen(desktop) {
+          letter-spacing: 1px;
+        }
+      }
+    }
+
+    p {
+      display: none;
+
+      @include screen(tablet-landscape) {
+        display: block;
+      }
+    }
+  }
+
+  &:not(.carousel-title__long-text) {
+    h1 {
+      span {
+        white-space: nowrap;
+
+        @include screen(desktop) {
+          letter-spacing: 25px;
+        }
       }
     }
   }

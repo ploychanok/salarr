@@ -1,0 +1,147 @@
+@import "../shared/variable.scss";
+@import "../shared/mixin.scss";
+
+@mixin content-width {
+  margin: 0 auto;
+
+  @include screen(tablet-portrait) {
+    max-width: 600px;
+  }
+
+  @include screen(tablet-landscape) {
+    max-width: 720px;
+  }
+
+  @include screen(xlarge-desktop) {
+    max-width: 930px;
+  }
+}
+
+.contents {
+  > div {
+    margin-bottom: 50px;
+  }
+
+  &.bg-black {
+    > div {
+      margin-bottom: 0;
+    }
+  }
+
+  @include screen(large-desktop) {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  h2 {
+    font-family: $font-family-bold;
+    font-size: calc(1.375rem + 1.5vw);
+    padding-bottom: 16px;
+
+    @include screen(desktop) {
+      font-size: 2.5rem;
+      padding-bottom: 30px;
+    }
+  }
+
+  p,
+  blockquote,
+  ul {
+    @include content-width;
+
+    @include screen(desktop) {
+      font-size: 22px;
+    }
+  }
+
+  figcaption {
+    @include screen(desktop) {
+      font-size: 22px;
+    }
+  }
+
+  p {
+    padding-bottom: 16px;
+  }
+
+  blockquote {
+    @include screen(desktop) {
+      max-width: 600px;
+    }
+
+    @include screen(xlarge-desktop) {
+      max-width: 840px;
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      padding-left: 16px;
+      padding-bottom: 16px;
+
+      @include screen(desktop) {
+        padding-left: 30px;
+      }
+
+      &::before {
+        content: "-";
+        padding-right: 8px;
+      }
+    }
+  }
+}
+
+.content-with-image-section {
+  @include content-width;
+
+  .content-with-image {
+    @include screen(tablet-portrait) {
+      display: flex;
+      flex-direction: row;
+    }
+
+    img {
+      @include screen(tablet-portrait) {
+        width: 60%;
+      }
+    }
+
+    figcaption {
+      display: flex;
+      flex-direction: column;
+
+      @include screen(tablet-portrait) {
+        width: 40%;
+        display: flex;
+        align-self: flex-end;
+        padding-bottom: 5%;
+      }
+    }
+
+    .figcaption-center {
+      @include screen(tablet-portrait) {
+        align-self: center;
+        padding-bottom: 0;
+      }
+    }
+
+    &.swap {
+      @include screen(tablet-portrait) {
+        flex-direction: row-reverse;
+        text-align: right;
+      }
+    }
+  }
+}
+
+.image-section {
+  max-width: 930px;
+  margin: 0 auto;
+}
+
+.reference {
+  @include content-width;
+}

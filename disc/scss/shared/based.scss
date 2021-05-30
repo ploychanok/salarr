@@ -61,6 +61,32 @@ section {
   @include screen(tablet-portrait) {
     padding-bottom: 60px !important;
   }
+
+  ~ .bg-black {
+    margin-top: -30px !important;
+
+    @include screen(tablet-portrait) {
+      margin-top: -60px !important;
+    }
+  }
+}
+
+.bg-black {
+  padding-top: 30px !important;
+  background-color: $black !important;
+  color: $white;
+
+  @include screen(tablet-portrait) {
+    padding-top: 60px !important;
+  }
+
+  ~ .container {
+    padding-top: 30px;
+
+    @include screen(tablet-portrait) {
+      padding-top: 60px;
+    }
+  }
 }
 
 img {
