@@ -73,6 +73,10 @@
     @include screen(xlarge-desktop) {
       max-width: 840px;
     }
+
+    &.bigger-text {
+      font-size: 30px;
+    }
   }
 
   ul {
@@ -108,6 +112,16 @@
 
       &::marker {
         font-weight: bold;
+      }
+    }
+  }
+
+  &.menu {
+    .nav-link {
+      color: $gray;
+
+      &.active {
+        color: $black;
       }
     }
   }
@@ -156,6 +170,21 @@
       }
     }
   }
+
+  &.portfolio {
+    @include screen(tablet-portrait) {
+      max-width: unset !important;
+    }
+
+    figcaption {
+      @include screen(tablet-portrait) {
+        padding: 30px 40px !important;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin-left: -10%;
+        width: 50%;
+      }
+    }
+  }
 }
 
 .image-section {
@@ -165,4 +194,14 @@
 
 .reference {
   @include content-width;
+}
+
+.icon-container {
+  margin: 0 auto;
+  text-align: center;
+
+  img {
+    width: 25vw;
+    max-width: 270px;
+  }
 }

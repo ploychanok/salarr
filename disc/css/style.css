@@ -116,6 +116,10 @@ ol,
 ul {
   margin: 0; }
 
+a {
+  text-decoration: none;
+  color: inherit; }
+
 .footer {
   height: 20px;
   display: block;
@@ -495,6 +499,21 @@ header {
   @media (min-width: 1200px) {
     .carousel-container p {
       font-size: 20px; } }
+  .carousel-container .float-text {
+    font-weight: bold; }
+    @media (min-width: 768px) {
+      .carousel-container .float-text {
+        position: absolute;
+        z-index: 2;
+        width: auto;
+        background-color: white;
+        padding: 30px 20px;
+        left: 10%;
+        bottom: -30px;
+        max-width: 350px; } }
+    @media (min-width: 992px) {
+      .carousel-container .float-text {
+        max-width: 485px; } }
 
 .carousel-homepage {
   max-width: 1400px;
@@ -637,6 +656,8 @@ header {
     @media (min-width: 1200px) {
       .gallery .description {
         letter-spacing: 5px; } }
+    .gallery .description p:last-child {
+      margin-bottom: 0; }
   @media (min-width: 992px) {
     .gallery .image {
       width: 800px; } }
@@ -769,6 +790,8 @@ header {
 @media (min-width: 1800px) {
   .contents blockquote {
     max-width: 840px; } }
+.contents blockquote.bigger-text {
+  font-size: 30px; }
 .contents ul {
   list-style: none;
   padding: 0; }
@@ -792,6 +815,10 @@ header {
         padding-left: 30px; } }
     .contents ol li::marker {
       font-weight: bold; }
+.contents.menu .nav-link {
+  color: #707070; }
+  .contents.menu .nav-link.active {
+    color: black; }
 
 .content-with-image-section {
   margin: 0 auto; }
@@ -830,6 +857,15 @@ header {
     .content-with-image-section .content-with-image.swap {
       flex-direction: row-reverse;
       text-align: right; } }
+  @media (min-width: 768px) {
+    .content-with-image-section.portfolio {
+      max-width: unset !important; } }
+  @media (min-width: 768px) {
+    .content-with-image-section.portfolio figcaption {
+      padding: 30px 40px !important;
+      background-color: rgba(255, 255, 255, 0.8);
+      margin-left: -10%;
+      width: 50%; } }
 
 .image-section {
   max-width: 930px;
@@ -846,5 +882,12 @@ header {
   @media (min-width: 1800px) {
     .reference {
       max-width: 930px; } }
+
+.icon-container {
+  margin: 0 auto;
+  text-align: center; }
+  .icon-container img {
+    width: 25vw;
+    max-width: 270px; }
 
 /*# sourceMappingURL=style.css.map */

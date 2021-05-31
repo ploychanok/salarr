@@ -25,6 +25,25 @@
       font-size: 20px;
     }
   }
+
+  .float-text {
+    font-weight: bold;
+
+    @include screen(tablet-portrait) {
+      position: absolute;
+      z-index: 2;
+      width: auto;
+      background-color: $white;
+      padding: 30px 20px;
+      left: 10%;
+      bottom: -30px;
+      max-width: 350px;
+    }
+
+    @include screen(tablet-landscape) {
+      max-width: 485px;
+    }
+  }
 }
 
 .carousel-homepage {
@@ -228,6 +247,10 @@
 
     @include screen(desktop) {
       letter-spacing: 5px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
     }
   }
 
