@@ -52,7 +52,8 @@ header {
 }
 
 .nav-link {
-  font-family: $font-family-bold;
+  font-family: $font-family-regular;
+  font-weight: bold;
 
   @include screen(tablet-landscape) {
     font-size: 21px;

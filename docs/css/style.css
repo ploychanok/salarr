@@ -1,105 +1,9 @@
-@font-face {
-  font-family: "THNiramitAS-Bold";
-  src: url("../../asset/fonts/THNiramitAS-Bold.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-BoldItalic";
-  src: url("../../asset/fonts/THNiramitAS-BoldItalic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-AS";
-  src: url("../../asset/fonts/THNiramitAS.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Italic";
-  src: url("../../asset/fonts/THNiramitAS-Italic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Bold";
-  src: url("../../asset/fonts/THNiramitAS-Bold.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-BoldItalic";
-  src: url("../../asset/fonts/THNiramitAS-BoldItalic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-AS";
-  src: url("../../asset/fonts/THNiramitAS.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Italic";
-  src: url("../../asset/fonts/THNiramitAS-Italic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Bold";
-  src: url("../../asset/fonts/THNiramitAS-Bold.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-BoldItalic";
-  src: url("../../asset/fonts/THNiramitAS-BoldItalic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-AS";
-  src: url("../../asset/fonts/THNiramitAS.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Italic";
-  src: url("../../asset/fonts/THNiramitAS-Italic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Bold";
-  src: url("../../asset/fonts/THNiramitAS-Bold.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-BoldItalic";
-  src: url("../../asset/fonts/THNiramitAS-BoldItalic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-AS";
-  src: url("../../asset/fonts/THNiramitAS.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Italic";
-  src: url("../../asset/fonts/THNiramitAS-Italic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap; }
 html,
 body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: "THNiramitAS-Bold", Arial, Helvetica, Times, serif;
+  font-family: "Prompt", Arial, Helvetica, Times, serif;
   overflow-x: hidden; }
 
 body {
@@ -221,78 +125,6 @@ img {
     width: 100%;
     height: 100%; }
 
-@font-face {
-  font-family: "THNiramitAS-Bold";
-  src: url("../../asset/fonts/THNiramitAS-Bold.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-BoldItalic";
-  src: url("../../asset/fonts/THNiramitAS-BoldItalic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-AS";
-  src: url("../../asset/fonts/THNiramitAS.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Italic";
-  src: url("../../asset/fonts/THNiramitAS-Italic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Bold";
-  src: url("../../asset/fonts/THNiramitAS-Bold.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-BoldItalic";
-  src: url("../../asset/fonts/THNiramitAS-BoldItalic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-AS";
-  src: url("../../asset/fonts/THNiramitAS.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Italic";
-  src: url("../../asset/fonts/THNiramitAS-Italic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Bold";
-  src: url("../../asset/fonts/THNiramitAS-Bold.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-BoldItalic";
-  src: url("../../asset/fonts/THNiramitAS-BoldItalic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-AS";
-  src: url("../../asset/fonts/THNiramitAS.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Italic";
-  src: url("../../asset/fonts/THNiramitAS-Italic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap; }
 header {
   background-color: #b6272d !important; }
   @media (min-width: 1200px) {
@@ -331,59 +163,12 @@ header {
       color: rgba(0, 0, 0, 0.55); } }
 
 .nav-link {
-  font-family: "THNiramitAS-Bold", Arial, Helvetica, Times, serif; }
+  font-family: "Prompt", Arial, Helvetica, Times, serif;
+  font-weight: bold; }
   @media (min-width: 992px) {
     .nav-link {
       font-size: 21px; } }
 
-@font-face {
-  font-family: "THNiramitAS-Bold";
-  src: url("../../asset/fonts/THNiramitAS-Bold.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-BoldItalic";
-  src: url("../../asset/fonts/THNiramitAS-BoldItalic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-AS";
-  src: url("../../asset/fonts/THNiramitAS.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Italic";
-  src: url("../../asset/fonts/THNiramitAS-Italic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Bold";
-  src: url("../../asset/fonts/THNiramitAS-Bold.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-BoldItalic";
-  src: url("../../asset/fonts/THNiramitAS-BoldItalic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-AS";
-  src: url("../../asset/fonts/THNiramitAS.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Italic";
-  src: url("../../asset/fonts/THNiramitAS-Italic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap; }
 .footer {
   min-height: 200px;
   height: auto;
@@ -434,54 +219,6 @@ header {
   padding: 1rem 0 0 0;
   border-top: 1px solid rgba(255, 255, 255, 0.2); }
 
-@font-face {
-  font-family: "THNiramitAS-Bold";
-  src: url("../../asset/fonts/THNiramitAS-Bold.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-BoldItalic";
-  src: url("../../asset/fonts/THNiramitAS-BoldItalic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-AS";
-  src: url("../../asset/fonts/THNiramitAS.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Italic";
-  src: url("../../asset/fonts/THNiramitAS-Italic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Bold";
-  src: url("../../asset/fonts/THNiramitAS-Bold.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-BoldItalic";
-  src: url("../../asset/fonts/THNiramitAS-BoldItalic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-AS";
-  src: url("../../asset/fonts/THNiramitAS.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Italic";
-  src: url("../../asset/fonts/THNiramitAS-Italic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap; }
 .carousel-container {
   width: auto;
   margin: 0 auto;
@@ -686,54 +423,6 @@ header {
   width: 100%;
   height: 100%; }
 
-@font-face {
-  font-family: "THNiramitAS-Bold";
-  src: url("../../asset/fonts/THNiramitAS-Bold.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-BoldItalic";
-  src: url("../../asset/fonts/THNiramitAS-BoldItalic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-AS";
-  src: url("../../asset/fonts/THNiramitAS.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Italic";
-  src: url("../../asset/fonts/THNiramitAS-Italic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Bold";
-  src: url("../../asset/fonts/THNiramitAS-Bold.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-BoldItalic";
-  src: url("../../asset/fonts/THNiramitAS-BoldItalic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-AS";
-  src: url("../../asset/fonts/THNiramitAS.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "THNiramitAS-Italic";
-  src: url("../../asset/fonts/THNiramitAS-Italic.woff2") format("woff2"), url("../../asset/fonts/THNiramitAS-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap; }
 .contents > div {
   margin-bottom: 50px; }
 .contents.bg-black > div {
@@ -743,9 +432,10 @@ header {
     padding-left: 150px;
     padding-right: 150px; } }
 .contents h2 {
-  font-family: "THNiramitAS-Bold", Arial, Helvetica, Times, serif;
+  font-family: "Prompt", Arial, Helvetica, Times, serif;
   font-size: calc(1.375rem + 1.5vw);
-  padding-bottom: 16px; }
+  padding-bottom: 16px;
+  font-weight: bold; }
   @media (min-width: 1200px) {
     .contents h2 {
       font-size: 2.5rem;
