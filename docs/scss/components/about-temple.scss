@@ -76,7 +76,15 @@
     }
 
     &.bigger-text {
-      font-size: 30px;
+      font-size: 20px;
+
+      @include screen(tablet-portrait) {
+        font-size: 24px;
+      }
+
+      @include screen(tablet-landscape) {
+        font-size: 30px;
+      }
     }
   }
 
@@ -151,10 +159,13 @@
     }
 
     img {
+      margin-bottom: 20px;
+
       @include screen(tablet-portrait) {
         width: 60%;
         height: 100%;
         align-self: center;
+        margin-bottom: 0;
       }
     }
 

@@ -240,17 +240,19 @@ header {
     .carousel-container p {
       font-size: 20px; } }
   .carousel-container .float-text {
-    font-weight: bold; }
+    font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    width: auto;
+    left: 10%;
+    bottom: -30px;
+    max-width: 350px;
+    padding: 10px 10px 20px;
+    background-color: rgba(255, 255, 255, 0.8); }
     @media (min-width: 768px) {
       .carousel-container .float-text {
-        position: absolute;
-        z-index: 2;
-        width: auto;
         background-color: white;
-        padding: 30px 20px;
-        left: 10%;
-        bottom: -30px;
-        max-width: 350px; } }
+        padding: 30px 20px; } }
     @media (min-width: 992px) {
       .carousel-container .float-text {
         max-width: 485px; } }
@@ -484,7 +486,13 @@ header {
   .contents blockquote {
     max-width: 840px; } }
 .contents blockquote.bigger-text {
-  font-size: 30px; }
+  font-size: 20px; }
+  @media (min-width: 768px) {
+    .contents blockquote.bigger-text {
+      font-size: 24px; } }
+  @media (min-width: 992px) {
+    .contents blockquote.bigger-text {
+      font-size: 30px; } }
 .contents ul {
   list-style: none;
   padding: 0; }
@@ -537,11 +545,14 @@ header {
     .content-with-image-section .content-with-image {
       display: flex;
       flex-direction: row; } }
-  @media (min-width: 768px) {
-    .content-with-image-section .content-with-image img {
-      width: 60%;
-      height: 100%;
-      align-self: center; } }
+  .content-with-image-section .content-with-image img {
+    margin-bottom: 20px; }
+    @media (min-width: 768px) {
+      .content-with-image-section .content-with-image img {
+        width: 60%;
+        height: 100%;
+        align-self: center;
+        margin-bottom: 0; } }
   .content-with-image-section .content-with-image figcaption {
     display: flex;
     flex-direction: column; }

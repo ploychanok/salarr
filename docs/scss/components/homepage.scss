@@ -28,16 +28,18 @@
 
   .float-text {
     font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    width: auto;
+    left: 10%;
+    bottom: -30px;
+    max-width: 350px;
+    padding: 10px 10px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
 
     @include screen(tablet-portrait) {
-      position: absolute;
-      z-index: 2;
-      width: auto;
       background-color: $white;
       padding: 30px 20px;
-      left: 10%;
-      bottom: -30px;
-      max-width: 350px;
     }
 
     @include screen(tablet-landscape) {
