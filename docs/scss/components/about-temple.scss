@@ -126,6 +126,11 @@
       }
     }
   }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    filter: brightness(0);
+  }
 }
 
 .content-with-image-section {
