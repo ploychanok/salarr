@@ -136,6 +136,14 @@
 .content-with-image-section {
   @include content-width;
 
+  @include screen(desktop) {
+    max-width: 1024px;
+  }
+
+  @include screen(xlarge-desktop) {
+    max-width: 1200px;
+  }
+
   .content-with-image {
     @include screen(tablet-portrait) {
       display: flex;

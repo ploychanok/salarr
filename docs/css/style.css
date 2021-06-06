@@ -527,6 +527,12 @@ header {
   @media (min-width: 1800px) {
     .content-with-image-section {
       max-width: 930px; } }
+  @media (min-width: 1200px) {
+    .content-with-image-section {
+      max-width: 1024px; } }
+  @media (min-width: 1800px) {
+    .content-with-image-section {
+      max-width: 1200px; } }
   @media (min-width: 768px) {
     .content-with-image-section .content-with-image {
       display: flex;
