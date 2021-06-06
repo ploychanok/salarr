@@ -182,6 +182,12 @@
       max-width: unset !important;
     }
 
+    img {
+      @include screen(tablet-portrait) {
+        width: 50%;
+      }
+    }
+
     figcaption {
       @include screen(tablet-portrait) {
         padding: 30px 40px !important;
