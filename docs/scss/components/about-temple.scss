@@ -3,18 +3,6 @@
 
 @mixin content-width {
   margin: 0 auto;
-
-  @include screen(tablet-portrait) {
-    max-width: 600px;
-  }
-
-  @include screen(tablet-landscape) {
-    max-width: 720px;
-  }
-
-  @include screen(xlarge-desktop) {
-    max-width: 930px;
-  }
 }
 
 .contents {
@@ -28,9 +16,14 @@
     }
   }
 
-  @include screen(large-desktop) {
-    padding-left: 150px;
-    padding-right: 150px;
+  @include screen(tablet-portrait) {
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+
+  @include screen(desktop) {
+    padding-left: 60px;
+    padding-right: 60px;
   }
 
   h2 {
@@ -67,12 +60,14 @@
   }
 
   blockquote {
-    @include screen(desktop) {
-      max-width: 600px;
+    padding: 0 20px;
+
+    @include screen(tablet-portrait) {
+      padding: 0 60px;
     }
 
-    @include screen(xlarge-desktop) {
-      max-width: 840px;
+    @include screen(desktop) {
+      padding: 0 120px;
     }
 
     &.bigger-text {
@@ -109,7 +104,6 @@
 
   ol {
     list-style-type: thai;
-    padding: 0;
 
     li {
       padding-left: 16px;
@@ -144,18 +138,11 @@
 .content-with-image-section {
   @include content-width;
 
-  @include screen(desktop) {
-    max-width: 1024px;
-  }
-
-  @include screen(xlarge-desktop) {
-    max-width: 1200px;
-  }
-
   .content-with-image {
     @include screen(tablet-portrait) {
       display: flex;
       flex-direction: row;
+      justify-content: space-around;
     }
 
     img {
