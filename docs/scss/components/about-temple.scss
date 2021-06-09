@@ -180,6 +180,13 @@
         flex-direction: row-reverse;
         text-align: right;
       }
+
+      figcaption {
+        @include screen(tablet-portrait) {
+          margin-left: 0;
+          margin-right: -10%;
+        }
+      }
     }
   }
 
