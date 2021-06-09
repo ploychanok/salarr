@@ -103,6 +103,10 @@ section {
   }
 }
 
+.carousel-item {
+  transition: transform 0.3s ease-in-out;
+}
+
 .bg-black {
   padding-top: 30px !important;
   background-color: $black !important;
