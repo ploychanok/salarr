@@ -390,19 +390,37 @@ header {
     .portfolio-text .description {
       padding: 60px 30px 40px;
       min-width: 900px; } }
-  .portfolio-text .description::before, .portfolio-text .description::after {
+.portfolio-text blockquote {
+  font-size: 20px;
+  padding: 0 40px; }
+  @media (min-width: 992px) {
+    .portfolio-text blockquote {
+      font-size: 1rem;
+      position: absolute;
+      right: 225px;
+      top: 25%;
+      width: 100%;
+      max-width: 260px; } }
+  @media (min-width: 1400px) {
+    .portfolio-text blockquote {
+      right: 250px; } }
+  .portfolio-text blockquote::before, .portfolio-text blockquote::after {
     font-size: 60px;
     line-height: 1;
     position: absolute; }
-    @media (min-width: 1200px) {
-      .portfolio-text .description::before, .portfolio-text .description::after {
-        font-size: 100px; } }
-  .portfolio-text .description::before {
+  .portfolio-text blockquote::before {
     content: "\201c";
-    top: 10px; }
-  .portfolio-text .description::after {
+    top: -20px;
+    left: 50px; }
+    @media (min-width: 992px) {
+      .portfolio-text blockquote::before {
+        top: -30px; } }
+  .portfolio-text blockquote::after {
     content: "\201d";
     right: 30px; }
+    @media (min-width: 992px) {
+      .portfolio-text blockquote::after {
+        bottom: -60px; } }
 
 .portfolio-round-image {
   width: 158px;
@@ -411,7 +429,8 @@ header {
   border-radius: 50%; }
 
 .speaker {
-  text-align: center; }
+  text-align: center;
+  position: relative; }
 
 .gallery {
   margin-bottom: 25px;

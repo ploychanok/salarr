@@ -164,26 +164,49 @@
       padding: 60px 30px 40px;
       min-width: 900px;
     }
+  }
+
+  blockquote {
+    font-size: 20px;
+    padding: 0 40px;
+
+    @include screen(tablet-landscape) {
+      font-size: 1rem;
+      position: absolute;
+      right: 225px;
+      top: 25%;
+      width: 100%;
+      max-width: 260px;
+    }
+
+    @include screen(large-desktop) {
+      right: 250px;
+    }
 
     &::before,
     &::after {
       font-size: 60px;
       line-height: 1;
       position: absolute;
-
-      @include screen(desktop) {
-        font-size: 100px;
-      }
     }
 
     &::before {
       content: "\201c";
-      top: 10px;
+      top: -20px;
+      left: 50px;
+
+      @include screen(tablet-landscape) {
+        top: -30px;
+      }
     }
 
     &::after {
       content: "\201d";
       right: 30px;
+
+      @include screen(tablet-landscape) {
+        bottom: -60px;
+      }
     }
   }
 }
@@ -197,6 +220,7 @@
 
 .speaker {
   text-align: center;
+  position: relative;
 }
 
 .gallery {
