@@ -6,3 +6,21 @@ function counter_fn() {
   counter.innerHTML = count;
 }
 window.onload = counter_fn;
+
+window.onscroll = function () {
+  stickyHeader();
+};
+
+let header = document.querySelector(".navbar");
+let content = document.querySelector(".margin-top-me");
+let sticky = header.offsetTop;
+
+function stickyHeader() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+    content.classList.add("top-padding");
+  } else {
+    header.classList.remove("sticky");
+    content.classList.remove("top-padding");
+  }
+}

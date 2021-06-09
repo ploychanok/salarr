@@ -36,7 +36,6 @@
   flex-direction: column;
 
   @include screen(desktop) {
-    justify-content: center;
     align-items: center;
   }
 }
