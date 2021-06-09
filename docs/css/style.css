@@ -395,7 +395,7 @@ header {
   padding: 0 40px; }
   @media (min-width: 992px) {
     .portfolio-text blockquote {
-      font-size: 1rem;
+      font-size: 16px;
       position: absolute;
       right: 225px;
       top: 25%;
@@ -404,6 +404,9 @@ header {
   @media (min-width: 1400px) {
     .portfolio-text blockquote {
       right: 250px; } }
+  @media (min-width: 1800px) {
+    .portfolio-text blockquote {
+      right: 300px; } }
   .portfolio-text blockquote::before, .portfolio-text blockquote::after {
     font-size: 60px;
     line-height: 1;
@@ -431,6 +434,11 @@ header {
 .speaker {
   text-align: center;
   position: relative; }
+  .speaker p {
+    white-space: nowrap; }
+    @media (min-width: 992px) {
+      .speaker p {
+        font-size: 12px; } }
 
 .gallery {
   margin-bottom: 25px;
